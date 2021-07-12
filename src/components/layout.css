@@ -321,3 +321,7 @@ a.navlinktext:hover {
   color: #0056b3;
   text-decoration: unset;
 }
+img{
+  width: 100%!important;
+  height: auto!important;
+}
