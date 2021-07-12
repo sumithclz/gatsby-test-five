@@ -6,12 +6,50 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from 'react-bootstrap/Carousel'
 
   
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+    <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.clovatel.com/wp-content/uploads/2020/07/slider-1-1.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Clovatel Hotel Suite Of Solution  </h3>
+          <p>Integrated Cloud base Hotel Management Solutions, that serves the need for hotels</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.clovatel.com/wp-content/uploads/2020/07/slider-2-1.jpg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>CLOVATEL KIOSK </h3>
+          <p>Ease your front desk with Self Service checkin with Facical Recognition </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.clovatel.com/wp-content/uploads/2020/07/slider-3-1.jpg"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Clovatel PMS and OTA  </h3>
+          <p>Get your rates to various booking platform and receive updates instanteously to your PMS  </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
     <div className="container">
         <div className="main-des">
           <h1>HOSPITALITY MANAGEMENT SYSTEM</h1>

@@ -2,7 +2,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import "./layout.css"
 import { Link } from 'gatsby'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import { Button } from 'react-bootstrap';
 //  import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,7 +26,17 @@ const Layout = ({ pageTitle, children }) => {
       <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
       <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
       <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
-      <script>var Alert = ReactBootstrap.Alert;</script>
+      <link
+      rel="stylesheet"
+      type="text/css"
+      charset="UTF-8"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    />
 
       <div className="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light navbar-right">
