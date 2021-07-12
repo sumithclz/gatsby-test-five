@@ -5,11 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-//import { Button } from 'react-bootstrap';
- //import "bootstrap/dist/css/bootstrap.min.css";
- import "jquery/dist/jquery.min.js";
- import "popper.js/dist/popper.min";
- import "bootstrap/dist/js/bootstrap.min.js";
+  
 
 const IndexPage = () => (
   <Layout>
