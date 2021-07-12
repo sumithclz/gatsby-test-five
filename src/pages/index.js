@@ -16,7 +16,6 @@ const IndexPage = () => (
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
           src="https://www.clovatel.com/wp-content/uploads/2020/07/slider-1-1.jpg"
           alt="First slide"
         />
@@ -27,7 +26,6 @@ const IndexPage = () => (
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
           src="https://www.clovatel.com/wp-content/uploads/2020/07/slider-2-1.jpg"
           alt="Second slide"
         />
@@ -39,7 +37,6 @@ const IndexPage = () => (
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
           src="https://www.clovatel.com/wp-content/uploads/2020/07/slider-3-1.jpg"
           alt="Third slide"
         />
@@ -190,7 +187,7 @@ const IndexPage = () => (
             <div className="row">
               <div className="col-md-4">
                 <div className="footer-logo">
-                  <img src="https://www.clovatel.com/wp-content/uploads/2021/05/clovatel-logo-png-300x78.png" />
+                  <img src="../images/clovatel-logo-png-300x78.png" />
                 </div>
                 <div class="footer-nav custm">
                     <ul>
@@ -202,7 +199,7 @@ const IndexPage = () => (
               </div>
               <div className="col-md-4">
                 <div className="col-footer">
-                  <img src="https://www.clovatel.com/wp-content/uploads/2020/04/sin-flag.jpg" alt="sin-flag"/>
+                  <img src="../images/sin-flag.jpg" alt="sin-flag"/>
                   <span>SINGAPORE</span>
                   <br></br>
                   <p>
@@ -215,7 +212,7 @@ const IndexPage = () => (
               </div>
               <div className="col-md-4">
                 <div className="col-footer">
-                  <img src="https://www.clovatel.com/wp-content/uploads/2020/04/sri-flag.jpg" alt="sin-flag"/>
+                  <img src="../images/sri-flag.jpg" alt="sin-flag"/>
                   <span>SRI LANKA</span><br></br>
                   <p>
                     No. 89, 2nd Floor, Old Kottawa Road, Nawinna, 
@@ -238,10 +235,10 @@ const IndexPage = () => (
           </div>
           <div className="footer-menu-socail">
             <ul className="menu-footer-menu-socail">
-              <li ><a href="#" ><img src="https://www.clovatel.com/wp-content/plugins/social-media-icons-widget/icons/medium/facebook.png" /> </a></li>
-              <li ><a href="#" ><img src="https://www.clovatel.com/wp-content/plugins/social-media-icons-widget/icons/medium/twitter.png" /></a></li>
-              <li ><a href="#" ><img src="https://www.clovatel.com/wp-content/plugins/social-media-icons-widget/icons/medium/linkedin.png" /></a></li>
-              <li ><a href="#" ><img src="https://www.clovatel.com/wp-content/plugins/social-media-icons-widget/icons/medium/skype.png" /></a></li>
+              <li ><a href="#" ><img src="../images/facebook.png" /> </a></li>
+              <li ><a href="#" ><img src="../images/twitter.png" /></a></li>
+              <li ><a href="#" ><img src="../images/linkedin.png" /></a></li>
+              <li ><a href="#" ><img src="../images/skype.png" /></a></li>
             </ul>
           </div>
           <div className="copyrights">
