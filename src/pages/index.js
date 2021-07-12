@@ -187,7 +187,7 @@ const IndexPage = () => (
             <div className="row">
               <div className="col-md-4">
                 <div className="footer-logo">
-                  <img src="../images/clovatel-logo-png-300x78.png" />
+                  <StaticImage imgClassName="ftr-img" src="../images/clovatel-logo-png-300x78.png"/>
                 </div>
                 <div class="footer-nav custm">
                     <ul>
@@ -199,7 +199,7 @@ const IndexPage = () => (
               </div>
               <div className="col-md-4">
                 <div className="col-footer">
-                  <img src="../images/sin-flag.jpg" alt="sin-flag"/>
+                  <StaticImage imgClassName="ftr-img" src="../images/sin-flag.jpg"/>
                   <span>SINGAPORE</span>
                   <br></br>
                   <p>
@@ -212,7 +212,7 @@ const IndexPage = () => (
               </div>
               <div className="col-md-4">
                 <div className="col-footer">
-                  <img src="../images/sri-flag.jpg" alt="sin-flag"/>
+                  <StaticImage imgClassName="ftr-img" src="../images/sri-flag.jpg"/>
                   <span>SRI LANKA</span><br></br>
                   <p>
                     No. 89, 2nd Floor, Old Kottawa Road, Nawinna, 
@@ -235,10 +235,10 @@ const IndexPage = () => (
           </div>
           <div className="footer-menu-socail">
             <ul className="menu-footer-menu-socail">
-              <li ><a href="#" ><img src="../images/facebook.png" /> </a></li>
-              <li ><a href="#" ><img src="../images/twitter.png" /></a></li>
-              <li ><a href="#" ><img src="../images/linkedin.png" /></a></li>
-              <li ><a href="#" ><img src="../images/skype.png" /></a></li>
+              <li ><a href="#" ><StaticImage imgClassName="ftr-img" src="../images/facebook.png"/> </a></li>
+              <li ><a href="#" ><StaticImage imgClassName="ftr-img" src="../images/twitter.png"/></a></li>
+              <li ><a href="#" ><StaticImage imgClassName="ftr-img" src="../images/linkedin.png"/></a></li>
+              <li ><a href="#" ><StaticImage imgClassName="ftr-img" src="../images/skype.png"/></a></li>
             </ul>
           </div>
           <div className="copyrights">
