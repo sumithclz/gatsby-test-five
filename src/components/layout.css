@@ -235,8 +235,8 @@ input[type="checkbox"] {
   width: 100%;
   height: auto;
 }
-.footer-logo img {
-  width: 130px;
+img.ftr-img {
+  width: 200px;
   height: auto;
 }
 ul.menu-footer-menu-socail li a img {
