@@ -18,7 +18,13 @@
   color: #161616;
 }
 a.navbar-brand img {
-  width: 200px;
+  max-width: 200px;
+  height: auto;
+}
+.col-footer img {
+  padding-right: 5px;
+  width: 26px;
+  height: auto;
 }
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
@@ -225,8 +231,21 @@ input[type="checkbox"] {
   box-sizing: border-box;
   padding: 30px 0;
 }
+.active.carousel-item img {
+  width: 100%;
+  height: auto;
+}
 .footer-logo img {
   width: 130px;
+  height: auto;
+}
+ul.menu-footer-menu-socail li a img {
+  width: 30px;
+  height: auto;
+}
+.gatsby-image-wrapper img {
+  width: 100%;
+  height: auto;
 }
 .col-footer {
   color: #fff;
@@ -320,8 +339,4 @@ ul.menu-footer-menu-socail li {
 a.navlinktext:hover {
   color: #0056b3;
   text-decoration: unset;
-}
-img{
-  width: 100%!important;
-  height: auto!important;
 }
