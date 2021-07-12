@@ -235,19 +235,12 @@ input[type="checkbox"] {
   width: 100%;
   height: auto;
 }
-img.ftr-logo {
-  width: 220px;
-  height: auto;
-}
-ul.menu-footer-menu-socail li a img {
+.menu-footer-menu-socail li a img {
   width: 30px;
   height: auto;
 }
 .col-footer {
   color: #fff;
-}
-.col-footer img {
-  padding-right: 5px;
 }
 .col-footer p {
   text-align: left;
@@ -335,4 +328,8 @@ ul.menu-footer-menu-socail li {
 a.navlinktext:hover {
   color: #0056b3;
   text-decoration: unset;
+}
+.footer-logo img.ftr-logo {
+  width: 220px;
+  height: auto;
 }

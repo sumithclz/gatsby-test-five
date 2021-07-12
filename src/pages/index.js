@@ -199,7 +199,7 @@ const IndexPage = () => (
               </div>
               <div className="col-md-4">
                 <div className="col-footer">
-                  <StaticImage imgClassName="ftr-flag" src="../images/sin-flag.jpg"/>
+                  <img src="https://www.clovatel.com/wp-content/uploads/2020/04/sin-flag.jpg" />
                   <span>SINGAPORE</span>
                   <br></br>
                   <p>
@@ -212,7 +212,7 @@ const IndexPage = () => (
               </div>
               <div className="col-md-4">
                 <div className="col-footer">
-                  <StaticImage imgClassName="ftr-flag" src="../images/sri-flag.jpg"/>
+                  <img src="https://www.clovatel.com/wp-content/uploads/2020/04/sri-flag.jpg" />
                   <span>SRI LANKA</span><br></br>
                   <p>
                     No. 89, 2nd Floor, Old Kottawa Road, Nawinna, 
