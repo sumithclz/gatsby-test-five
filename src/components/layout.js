@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
       <div className="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light navbar-right">
           <a class="navbar-brand" href="#">
-            <img src="https://www.clovatel.com/wp-content/uploads/2020/06/clovatel-logo-png-1.png" />
+            {/* <img src="https://www.clovatel.com/wp-content/uploads/2020/06/clovatel-logo-png-1.png" /> */}
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
