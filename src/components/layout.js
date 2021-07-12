@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./layout.css"
 import { Link } from 'gatsby'
 
+
 // import { Button } from 'react-bootstrap';
 //  import "bootstrap/dist/css/bootstrap.min.css";
 //  import "jquery/dist/jquery.min.js";
@@ -22,6 +23,11 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <main>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+      <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+      <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+      <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
+      <script>var Alert = ReactBootstrap.Alert;</script>
+
       <div className="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light navbar-right">
           <a class="navbar-brand" href="#">
