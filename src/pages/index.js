@@ -12,7 +12,9 @@ import Carousel from 'react-bootstrap/Carousel'
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Home Page"
+      description='This example uses more of the Home Page.'
+      canonical='https://www.clovatel.com/'/>
     <Carousel>
       <Carousel.Item>
         <img
