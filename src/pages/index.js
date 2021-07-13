@@ -7,14 +7,35 @@ import Seo from "../components/seo"
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
-
+import { Helmet } from 'react-helmet';
+import ContactForm from "../components/contactForm"
   
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home Page"
+    {/* <Seo title="Home Page"
       description='This example uses more of the Home Page.'
-      canonical='https://www.clovatel.com/'/>
+      canonical='https://www.clovatel.com/'/> */}
+    {/* <Helmet>
+        <title>title</title>
+        <meta name="description" content="Helmet app" />
+      </Helmet> */}
+    {/* <Helmet>‍
+        <title>Pets - Products</title>    
+        <meta property="og:title" content="Pets - Products" />     
+        <meta property="og:description" content="Best Products for your pet" />     
+        <meta property="og:image" content="url_to_image"/>
+        <meta property="og:url" content="clovatel.com" />
+        <meta property="og:site_name" content="Pets - Products" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
+      </Helmet> */}
+    
+      {/* <title>Gatsby Clovatel Home Page</title>
+      <meta name="description" content="lorem ip sum dolor sit amet">
+      <meta name="og:title" property="og:title" content="lorem ip sum dolor sit amet">
+      <meta name="robots" content="index,follow"> */}
     <Carousel>
       <Carousel.Item>
         <img
@@ -52,7 +73,7 @@ const IndexPage = () => (
     <div className="container">
         <div className="main-des">
           <h1>HOSPITALITY MANAGEMENT SYSTEM</h1>
-          <p><b>Self Service Kiosk offer modular integrated solutions for staff and guest experience</b></p>
+          <h2><b>Self Service Kiosk offer modular integrated solutions for staff and guest experience</b></h2>
           <p>Looking for the best technology to reach the pinnacle of growth to collaborate and streamlined daily operations, consider Clovatel, a cloud-based software solution integrated with an efficient, economical, seamless innovated system to satisfy all your needs in the hospitality industry.</p>
           <p>With the evolution of cloud technology, hoteliers can embrace technologies that can be programmed to streamlined practices making operations more efficient, saving time for employees, and delivering excellent guest experiences by scaling to new heights. Clovatel comes with piping hot sale solution coupled and incorporated with tools such as self-service kiosk, booking engine, room app, housekeeping appends retail POS, spa and wellness app, revenue management, channel manager and several more.</p>
         </div>

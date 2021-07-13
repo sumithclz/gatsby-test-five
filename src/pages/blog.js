@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Carousel from 'react-bootstrap/Carousel'
+import ContactForm from "../components/contactForm"
+
 
 const BlogPage = () => (
   <Layout>
@@ -44,6 +46,9 @@ const BlogPage = () => (
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+  <div className="container">
+    <ContactForm></ContactForm>
+  </div>
   </Layout>
 )
 
