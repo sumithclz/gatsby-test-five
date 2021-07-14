@@ -200,6 +200,31 @@ input[type="checkbox"] {
   -o-transition: border-color .2s ease-in-out;
   transition: border-color .2s ease-in-out;
 }
+.container.form-home .form-group select {
+  position: relative;
+  width: 100%;
+  margin: 0 0 30px;
+  padding: 0 2px;
+  font-family: Muli,sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  line-height: calc(26px - (0px - 2px));
+  color: #000000;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color .2s ease-in-out;
+  -o-transition: border-color .2s ease-in-out;
+  transition: border-color .2s ease-in-out;
+}
 .page-footer {
   position: relative;
   display: inline-block;
