@@ -144,7 +144,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="container form-home">
+      {/* <div className="container form-home">
         <h1>REQUEST A FREE DEMO</h1>
         <div className="row">
           <div className="col-md-8">
@@ -203,6 +203,9 @@ const IndexPage = () => (
             </form>
           </div>   
         </div>
+      </div> */}
+      <div className="container">
+        <ContactForm></ContactForm>
       </div>
       <footer className="page-footer">
         <div className="footer-top-holder">
