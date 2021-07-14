@@ -88,7 +88,13 @@ class ContactForm extends React.Component {
             <input type="text" name="propertyName" id="propertyName" placeholder="Property Name" value={this.state.message.propertyName} onChange={this.onChange}></input>
           </div>
           <div className="form-group">
-            <input type="text" name="propertyType" id="propertyType" placeholder="Property Type" value={this.state.message.propertyType} onChange={this.onChange}/>
+            <select name="Property-Type" id="propertyType" placeholder="Property Type" value={this.state.message.propertyType} onChange={this.onChange}>
+              <option value="Property Type">Property Type</option>
+              <option value="Hotel">Hotel</option>
+              <option value="Hostel">Hostel</option>
+              <option value="Boutique hotel">Boutique hotel</option>
+              <option value="Motel">Motel</option>
+            </select>
           </div>
           <div className="form-group">
             <input type="text" name="NoOfRooms" id="NoOfRooms" placeholder="No of rooms" value={this.state.message.NoOfRooms} onChange={this.onChange}/>
