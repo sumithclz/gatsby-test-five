@@ -7,7 +7,22 @@ class ContactForm extends React.Component {
    super(props)
    this.state = {
      buttonDisabled: true,
-     message: { fromEmail: "", subject: "", body: "" },
+     message: { 
+      propertyName: "",
+      propertyType: "",
+      NoOfRooms: "",
+      Name: "",
+      emailAddress: "",
+      phone: "",
+      country: "",
+      channelManager: "",
+      kiosk: "",
+      HotelSelfServiceApp: "",
+      SmartHotelAPPGuest: "",
+      VisitorManagement: "",
+      BookingEngine: "",
+      message: "",
+      },
      submitting: false,
      error: null,
    }
@@ -16,23 +31,37 @@ class ContactForm extends React.Component {
  onClick = async event => {
    event.preventDefault()
    this.setState({ submitting: true })
-   const { fromEmail, subject, body } = this.state.message
+   const { propertyName, propertyType, NoOfRooms, Name, emailAddress, phone, country, channelManager,
+    kiosk, HotelSelfServiceApp, SmartHotelAPPGuest, VisitorManagement, BookingEngine, message } = this.state.message
 
    const response = await fetch(functionURL, {
      method: "post",
      headers: {
        "Content-type": "application/x-www-form-urlencoded; charset=UTF-8",
      },
-     body: new URLSearchParams({ fromEmail, subject, body }).toString(),
+     body: new URLSearchParams({ propertyName, propertyType, NoOfRooms, Name, emailAddress, phone, country, channelManager,
+      kiosk, HotelSelfServiceApp, SmartHotelAPPGuest, VisitorManagement, BookingEngine, message }).toString(),
    })
    if (response.status === 200) {
      this.setState({
        error: null,
        submitting: false,
        message: {
-         fromEmail: "",
-         subject: "",
-         body: "",
+         propertyName: "",
+         propertyType: "",
+         NoOfRooms: "",
+         Name: "",
+         emailAddress: "",
+         phone: "",
+         country: "",
+         channelManager: "",
+         kiosk: "",
+         HotelSelfServiceApp: "",
+         SmartHotelAPPGuest: "",
+         VisitorManagement: "",
+         BookingEngine: "",
+         message: "",
+
        },
      })
    } else {
@@ -54,16 +83,58 @@ class ContactForm extends React.Component {
    return (
      <>
        <div>{this.state.error}</div>
-       <form style={{display: `flex`,flexDirection: `column`,maxWidth: `500px`,}} method="post" action={functionURL} >
-         <label htmlFor="fromEmail">Your email address:</label>
-         <input type="email" name="fromEmail" id="fromEmail" value={this.state.message.fromEmail} onChange={this.onChange}></input>
-         <label htmlFor="subject">Subject:</label>
-         <input type="text" name="subject" id="subject" value={this.state.message.subject} onChange={this.onChange}/>
-         <label htmlFor="body">Message:</label>
-         <textarea style={{ height: `125px`, }} name="body" id="body" value={this.state.message.body} onChange={this.onChange} />
-         <button style={{marginTop: `7px`, }} type="submit" disabled={this.state.submitting} onClick={this.onClick} >
-           Send message
-         </button>
+       <form  method="post" action={functionURL} >
+          <div className="form-group">
+            <input type="text" name="propertyName" id="propertyName" placeholder="Property Name" value={this.state.message.propertyName} onChange={this.onChange}></input>
+          </div>
+          <div className="form-group">
+            <input type="text" name="propertyType" id="propertyType" placeholder="Property Type" value={this.state.message.propertyType} onChange={this.onChange}/>
+          </div>
+          <div className="form-group">
+            <input type="text" name="NoOfRooms" id="NoOfRooms" placeholder="No of rooms" value={this.state.message.NoOfRooms} onChange={this.onChange}/>
+          </div>
+          <div className="form-group">
+            <input type="text" name="Name" id="Name" placeholder="Name" value={this.state.message.Name} onChange={this.onChange}/>
+          </div>
+          <div className="form-group">
+            <input type="text" name="emailAddress" id="emailAddress" placeholder="Email Address" value={this.state.message.emailAddress} onChange={this.onChange}/>
+          </div>
+          <div className="form-group">
+            <input type="text" name="phone" id="phone" placeholder="phone" value={this.state.message.phone} onChange={this.onChange}/>
+          </div>
+          <div className="form-group">
+            <input type="text" name="country" id="country" placeholder="Country" value={this.state.message.country} onChange={this.onChange}/>
+          </div>
+          <div className="form-group">
+            <input type="checkbox" name="channelManager" id="channelManager" value={this.state.message.channelManager} onChange={this.onChange}/>
+            <label for="channelManager"> Channel Manager </label><br></br>
+          </div>
+          <div className="form-group">
+            <input type="checkbox" name="kiosk" id="kiosk" value={this.state.message.kiosk} onChange={this.onChange}/>
+            <label for="kiosk"> Kiosk </label><br></br>
+          </div>
+          <div className="form-group">
+            <input type="checkbox" name="HotelSelfServiceApp" id="HotelSelfServiceApp" value={this.state.message.HotelSelfServiceApp} onChange={this.onChange}/>
+            <label for="HotelSelfServiceApp"> Hotel Self Service App </label><br></br>
+          </div>
+          <div className="form-group">
+            <input type="checkbox" name="SmartHotelAPPGuest" id="SmartHotelAPPGuest" value={this.state.message.SmartHotelAPPGuest} onChange={this.onChange}/>
+            <label for="SmartHotelAPPGuest"> Smart Hotel APP Guest </label><br></br>
+          </div>
+          <div className="form-group">
+            <input type="checkbox" name="VisitorManagement" id="VisitorManagement" value={this.state.message.VisitorManagement} onChange={this.onChange}/>
+            <label for="VisitorManagement"> Visitor Management </label><br></br>
+          </div>
+          <div className="form-group">
+            <input type="checkbox" name="BookingEngine" id="BookingEngine" value={this.state.message.BookingEngine} onChange={this.onChange}/>
+            <label for="BookingEngine"> Booking Engine </label><br></br>
+          </div>
+          <div className="form-group">
+            <textarea name="message" id="message" rows="5" placeholder="Remarks" value={this.state.message.message} onChange={this.onChange}/>
+          </div>
+          <div className="form-group">
+            <button type="submit" disabled={this.state.submitting} onClick={this.onClick} > Send message </button>
+          </div>
        </form>
      </>
    )
@@ -71,4 +142,3 @@ class ContactForm extends React.Component {
 }
 
 export default ContactForm
-
