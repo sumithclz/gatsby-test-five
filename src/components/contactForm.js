@@ -79,6 +79,8 @@ class ContactForm extends React.Component {
      message: { ...this.state.message, [name]: event.target.value },
    })
  }
+
+
  render() {
    return (
      <>
