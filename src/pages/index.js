@@ -204,8 +204,11 @@ const IndexPage = () => (
           </div>   
         </div>
       </div> */}
-      <div className="container">
-        <ContactForm></ContactForm>
+      <div className="container form-home main-form">
+        <h1>REQUEST A FREE DEMO</h1>
+        <div className="col-md-8">
+          <ContactForm></ContactForm>
+        </div>
       </div>
       <footer className="page-footer">
         <div className="footer-top-holder">

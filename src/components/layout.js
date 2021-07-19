@@ -47,17 +47,20 @@ const Layout = ({ pageTitle, children }) => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav mr-auto mt-2 mt-lg-0 navlinks">
-            <li className="navlinkitem">
-              <Link to="/" className="navlinktext"> Home </Link>
-            </li>
-            <li className="navlinkitem">
-              <Link to="/about" className="navlinktext"> About </Link>
-            </li>
-            <li className="navlinkitem">
-              <Link to="/blog" className="navlinktext"> Blog </Link>
-            </li>
-          </ul>
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-0 navlinks">
+              <li className="navlinkitem">
+                <Link to="/" className="navlinktext"> Home </Link>
+              </li>
+              <li className="navlinkitem">
+                <Link to="/software" className="navlinktext"> Software </Link>
+              </li>
+              <li className="navlinkitem">
+                <Link to="/about-us" className="navlinktext"> About US</Link>
+              </li>
+              <li className="navlinkitem">
+                <Link to="/request-for-demo" className="navlinktext demo"> Request for Demo </Link>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>

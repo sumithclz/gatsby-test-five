@@ -85,10 +85,9 @@ class ContactForm extends React.Component {
    return (
      <>
        <div>{this.state.error}</div>
-        <div className="container form-home">
-          <h1>REQUEST A FREE DEMO</h1>
+        <div className="container">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-12">
               <form method="post" action={functionURL}>
                 <div className="form-group">
                   <input type="text" name="propertyName" id="propertyName" placeholder="Property Name" value={this.state.message.propertyName} onChange={this.onChange}/>
