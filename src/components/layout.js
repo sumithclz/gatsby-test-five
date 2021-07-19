@@ -56,19 +56,14 @@ const Layout = ({ pageTitle, children }) => {
                 Software
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link to="/" className="navlinktext"> Home </Link>
-                <Link to="/" className="navlinktext"> Home </Link>
-                <Link to="/" className="navlinktext"> Home </Link>
-                <Link to="/" className="navlinktext"> Home </Link>
-                <Link to="/" className="navlinktext"> Home </Link>
-                <Link to="/" className="navlinktext"> Home </Link>
-                  {/* <a class="dropdown-item navlinktext" href="#">PMS</a>
+                  <a class="dropdown-item navlinktext" href="/software">Software</a>
+                  <a class="dropdown-item navlinktext" href="#">PMS</a>
                   <a class="dropdown-item navlinktext" href="#">Booking Engine</a>
                   <a class="dropdown-item navlinktext" href="#">Channel Manager</a>
                   <a class="dropdown-item navlinktext" href="#">Self Service Kiosk</a>
                   <a class="dropdown-item navlinktext" href="#">Hotel Self Service App</a>
                   <a class="dropdown-item navlinktext" href="#">Visitor Management</a>
-                  <a class="dropdown-item navlinktext" href="#">Smart Hotel</a> */}
+                  <a class="dropdown-item navlinktext" href="#">Smart Hotel</a>
                 </div>
               </li>
               <li className="navlinkitem">
