@@ -1,9 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+//import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
