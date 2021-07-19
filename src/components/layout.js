@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import { Button } from 'react-bootstrap';
 //  import "bootstrap/dist/css/bootstrap.min.css";
-//  import "jquery/dist/jquery.min.js";
+  import "jquery/dist/jquery.min.js";
 //  import "popper.js/dist/popper.min";
-//  import "bootstrap/dist/js/bootstrap.min.js";
+  import "bootstrap/dist/js/bootstrap.min.js";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -51,8 +51,22 @@ const Layout = ({ pageTitle, children }) => {
               <li className="navlinkitem">
                 <Link to="/" className="navlinktext"> Home </Link>
               </li>
-              <li className="navlinkitem">
-                <Link to="/software" className="navlinktext"> Software </Link>
+              {/* <li className="navlinkitem">
+                <Link to="" className="navlinktext">  </Link>
+              </li> */}
+              <li class="navlinkitem dropdown">
+                <a class="navlinktext dropdown-toggle" href="/software" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Software
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item navlinktext" href="#">PMS</a>
+                  <a class="dropdown-item navlinktext" href="#">Booking Engine</a>
+                  <a class="dropdown-item navlinktext" href="#">Channel Manager</a>
+                  <a class="dropdown-item navlinktext" href="#">Self Service Kiosk</a>
+                  <a class="dropdown-item navlinktext" href="#">Hotel Self Service App</a>
+                  <a class="dropdown-item navlinktext" href="#">Visitor Management</a>
+                  <a class="dropdown-item navlinktext" href="#">Smart Hotel</a>
+                </div>
               </li>
               <li className="navlinkitem">
                 <Link to="/about-us" className="navlinktext"> About US</Link>

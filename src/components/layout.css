@@ -117,7 +117,8 @@ button.btn.btn-learn {
   text-align: center;
   font-size: 15px;
 }
-.main-ftr .main-ftr-inner h1, p {
+.main-ftr .main-ftr-inner>h1,
+.main-ftr .main-ftr-inner>p {
   text-align: center;
   color: #fff;
 }
@@ -448,5 +449,31 @@ a.navlinktext:hover {
 }
 .page-body span {
   border-bottom: 2px solid #383838;
+}
+/* Software Page Style */
+.page-description {
+  padding-bottom: 30px;
+}
+.page-description h2 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.feature-inner {
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+.feature-des {
+  padding: 15px;
+  text-align: center;
+}
+.feature-des h2 {
+  color: #0585d0;
+  font-size: 16px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.feature-des p {
+  font-size: 14px;
+  color: #8e8e8e;
 }
 

@@ -26,7 +26,7 @@ const SoftwarePage = () => (
             <div className="row">
                 <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="../images/Channel-Manger-new-1.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/05/pms-1.jpg"/>
                         <div className="feature-des">
                             <h2>PROPERTY MANAGEMENT SYSTEM( PMS)</h2>
                             <p>Manage your day to day front desk operation, receive real time room bookings, forecast room reservations and increase your hotel revenue with our cloud base PMS</p>
@@ -36,7 +36,7 @@ const SoftwarePage = () => (
                 </div>
                 <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="../images/BOOKING-ENGINE.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/06/Channel-Manger-new-1.jpg"/>
                         <div className="feature-des">
                             <h2>PROPERTY MANAGEMENT SYSTEM( PMS)</h2>
                             <p>Manage your day to day front desk operation, receive real time room bookings, forecast room reservations and increase your hotel revenue with our cloud base PMS</p>
@@ -46,7 +46,7 @@ const SoftwarePage = () => (
                 </div>
                 <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="../images/booking.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/05/BOOKING-ENGINE.jpg"/>
                         <div className="feature-des">
                             <h2>PROPERTY MANAGEMENT SYSTEM( PMS)</h2>
                             <p>Manage your day to day front desk operation, receive real time room bookings, forecast room reservations and increase your hotel revenue with our cloud base PMS</p>
@@ -56,7 +56,7 @@ const SoftwarePage = () => (
                 </div>
                 <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="../images/visitor-mg.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/06/booking.jpg"/>
                         <div className="feature-des">
                             <h2>PROPERTY MANAGEMENT SYSTEM (PMS)</h2>
                             <p>Manage your day to day front desk operation, receive real time room bookings, forecast room reservations and increase your hotel revenue with our cloud base PMS</p>
@@ -66,7 +66,7 @@ const SoftwarePage = () => (
                 </div>
                 <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="../images/smart.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/06/hotel-app.jpg"/>
                         <div className="feature-des">
                             <h2>PROPERTY MANAGEMENT SYSTEM( PMS)</h2>
                             <p>Manage your day to day front desk operation, receive real time room bookings, forecast room reservations and increase your hotel revenue with our cloud base PMS</p>
@@ -76,7 +76,7 @@ const SoftwarePage = () => (
                 </div>
                 <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="../images/item-4-1.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/06/visitor-mg.jpg"/>
                         <div className="feature-des">
                             <h2>PROPERTY MANAGEMENT SYSTEM( PMS)</h2>
                             <p>Manage your day to day front desk operation, receive real time room bookings, forecast room reservations and increase your hotel revenue with our cloud base PMS</p>
@@ -86,7 +86,7 @@ const SoftwarePage = () => (
                 </div>
                 <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="../images/item-4-1.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/06/smart.jpg"/>
                         <div className="feature-des">
                             <h2>PROPERTY MANAGEMENT SYSTEM( PMS)</h2>
                             <p>Manage your day to day front desk operation, receive real time room bookings, forecast room reservations and increase your hotel revenue with our cloud base PMS</p>
