@@ -39,7 +39,7 @@ const Layout = ({ pageTitle, children }) => {
     />
 
       <div className="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light navbar-right">
+        {/* <nav class="navbar navbar-expand-lg navbar-light navbar-right">
           <a class="navbar-brand" href="#">
             <img src="https://www.clovatel.com/wp-content/uploads/2020/06/clovatel-logo-png-1.png" />
           </a>
@@ -74,7 +74,7 @@ const Layout = ({ pageTitle, children }) => {
               </li>
             </ul>
           </div>
-        </nav>
+        </nav> */}
       </div>
       <div className="main-wrapper"> {children} </div>
     </main>
