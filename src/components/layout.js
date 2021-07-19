@@ -51,7 +51,7 @@ const Layout = ({ pageTitle, children }) => {
               <li className="navlinkitem">
                 <Link to="/" className="navlinktext"> Home </Link>
               </li>
-              <li class="navlinkitem dropdown">
+              {/* <li class="navlinkitem dropdown">
                 <a class="navlinktext dropdown-toggle" href="/software" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Software
                 </a>
@@ -64,7 +64,7 @@ const Layout = ({ pageTitle, children }) => {
                   <a class="dropdown-item navlinktext" href="#">Visitor Management</a>
                   <a class="dropdown-item navlinktext" href="#">Smart Hotel</a>
                 </div>
-              </li>
+              </li> */}
               <li className="navlinkitem">
                 <Link to="/about-us" className="navlinktext"> About US</Link>
               </li>
