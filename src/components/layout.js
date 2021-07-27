@@ -57,7 +57,7 @@ const Layout = ({ pageTitle, children }) => {
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item navlinktext" href="/software">Software</a>
                   <a class="dropdown-item navlinktext" href="/pms">PMS</a>
-                  <a class="dropdown-item navlinktext" href="#">Booking Engine</a>
+                  <a class="dropdown-item navlinktext" href="/booking-engine">Booking Engine</a>
                   <a class="dropdown-item navlinktext" href="#">Channel Manager</a>
                   <a class="dropdown-item navlinktext" href="#">Self Service Kiosk</a>
                   <a class="dropdown-item navlinktext" href="#">Hotel Self Service App</a>
