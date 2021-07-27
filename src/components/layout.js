@@ -4,10 +4,10 @@ import "./layout.css"
 import { Link } from 'gatsby'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import { Button } from 'react-bootstrap';
-//  import "bootstrap/dist/css/bootstrap.min.css";
+ import { Button } from 'react-bootstrap';
+  import "bootstrap/dist/css/bootstrap.min.css";
   import "jquery/dist/jquery.min.js";
-//  import "popper.js/dist/popper.min";
+ import "popper.js/dist/popper.min";
   import "bootstrap/dist/js/bootstrap.min.js";
 
 const Layout = ({ pageTitle, children }) => {
