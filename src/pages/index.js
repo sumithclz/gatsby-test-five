@@ -1,10 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
 import { Helmet } from 'react-helmet';
@@ -13,14 +12,14 @@ import ContactForm from "../components/contactForm"
 
 const IndexPage = () => (
   <Layout>
-    {/* <Seo title="Home Page"
+    <Seo title="Home Page"
       description='This example uses more of the Home Page.'
-      canonical='https://www.clovatel.com/'/> */}
-    {/* <Helmet>
+      canonical='https://www.clovatel.com/'/>
+    <Helmet>
         <title>title</title>
         <meta name="description" content="Helmet app" />
-      </Helmet> */}
-    {/* <Helmet>‍
+      </Helmet>
+    <Helmet>‍
         <title>Pets - Products</title>    
         <meta property="og:title" content="Pets - Products" />     
         <meta property="og:description" content="Best Products for your pet" />     
@@ -30,7 +29,7 @@ const IndexPage = () => (
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
-      </Helmet> */}
+      </Helmet>
     
       {/* <title>Gatsby Clovatel Home Page</title>
       <meta name="description" content="lorem ip sum dolor sit amet">
@@ -144,66 +143,6 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      {/* <div className="container form-home">
-        <h1>REQUEST A FREE DEMO</h1>
-        <div className="row">
-          <div className="col-md-8">
-            <form method="post" action="#">
-              <div className="form-group">
-                <input type="text" name="name" id="name" placeholder="Property Name"/>
-              </div>
-              <div className="form-group">
-                <input type="text" name="email" id="email" placeholder="Property Type"/>
-              </div>
-              <div className="form-group">
-                <input type="text" name="subject" id="subject" placeholder="No of rooms"/>
-              </div>
-              <div className="form-group">
-                <input type="text" name="subject" id="subject" placeholder="Name"/>
-              </div>
-              <div className="form-group">
-                <input type="text" name="subject" id="subject" placeholder="Email Address"/>
-              </div>
-              <div className="form-group">
-                <input type="text" name="subject" id="subject" placeholder="Phone"/>
-              </div>
-              <div className="form-group">
-                <input type="text" name="subject" id="subject" placeholder="Country"/>
-              </div>
-              <div className="form-group">
-                <input type="checkbox" name="subject" id="subject" />
-                <label for="vehicle1"> Channel Manager </label><br></br>
-              </div>
-              <div className="form-group">
-                <input type="checkbox" name="subject" id="subject" />
-                <label for="vehicle1"> Kiosk </label><br></br>
-              </div>
-              <div className="form-group">
-                <input type="checkbox" name="subject" id="subject" />
-                <label for="vehicle1"> Hotel Self Service App </label><br></br>
-              </div>
-              <div className="form-group">
-                <input type="checkbox" name="subject" id="subject" />
-                <label for="vehicle1"> Smart Hotel APP Guest </label><br></br>
-              </div>
-              <div className="form-group">
-                <input type="checkbox" name="subject" id="subject" />
-                <label for="vehicle1"> Visitor Management </label><br></br>
-              </div>
-              <div className="form-group">
-                <input type="checkbox" name="subject" id="subject" />
-                <label for="vehicle1"> Booking Engine </label><br></br>
-              </div>
-              <div className="form-group">
-                <textarea name="message" id="message" rows="5" placeholder="Remarks"/>
-              </div>
-              <div className="form-group">
-                <button type="submit" className="btn btn-learn">Send</button>
-              </div>
-            </form>
-          </div>   
-        </div>
-      </div> */}
       <div className="container form-home main-form">
         <h1>REQUEST A FREE DEMO</h1>
         <div className="col-md-8">

@@ -2,13 +2,12 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import "./layout.css"
 import { Link } from 'gatsby'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
- import { Button } from 'react-bootstrap';
-  import "bootstrap/dist/css/bootstrap.min.css";
-  import "jquery/dist/jquery.min.js";
- import "popper.js/dist/popper.min";
-  import "bootstrap/dist/js/bootstrap.min.js";
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import { Button } from 'react-bootstrap';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "jquery/dist/jquery.min.js";
+import "popper.js/dist/popper.min";
+import "bootstrap/dist/js/bootstrap.min.js";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -38,7 +37,7 @@ const Layout = ({ pageTitle, children }) => {
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
     />
 
-      {/* <div className="container-fluid">
+      <div className="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light navbar-right">
           <a class="navbar-brand" href="#">
             <img src="https://www.clovatel.com/wp-content/uploads/2020/06/clovatel-logo-png-1.png" />
@@ -75,7 +74,7 @@ const Layout = ({ pageTitle, children }) => {
             </ul>
           </div>
         </nav>
-      </div> */}
+      </div>
       <div className="main-wrapper"> {children} </div>
     </main>
   )
