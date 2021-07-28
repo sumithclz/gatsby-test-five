@@ -422,6 +422,33 @@ a.navlinktext:hover {
   background-attachment: fixed;
   height: 150px;
 }
+/* PMS Page */
+.banner-wrapper-pms {
+  background-image: url(../images/pms.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
+/* Booking Engine Page */
+.banner-wrapper-booking {
+  background-image: url(../images/new-booking-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
+/* Channel Manager Page */
+.banner-wrapper-channel {
+  background-image: url(../images/booking-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
 
 /* Pages Common */
 .banner-wrapper-inner {
@@ -433,9 +460,6 @@ a.navlinktext:hover {
 }
 .banner-wrapper-inner h1 {
   font-size: 26px;
-}
-.page-body {
-  padding: 80px 0px;
 }
 .page-body {
   padding: 80px 0px;
@@ -475,5 +499,8 @@ a.navlinktext:hover {
 .feature-des p {
   font-size: 14px;
   color: #8e8e8e;
+}
+.list-style ul li {
+  text-align: left;
 }
 

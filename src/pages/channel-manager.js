@@ -7,38 +7,67 @@ import { StaticImage } from "gatsby-plugin-image"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const bookingEngine = () => (
+const channelmanager = () => (
   <Layout>
-    <div className="banner-wrapper-booking">
+    <div className="banner-wrapper-channel">
       <div className="container">
         <div className="banner-wrapper-inner">
-          <h1>Hotel Booking System</h1>
+          <h1>HOTEL CHANNEL MANAGER SYSTEM</h1>
         </div>
       </div>
     </div>
     <div className="container">
       <div className="page-body">
         <div className="page-description">
-            <h2>HAVE DIRECT BOOKINGS WITH WEBSITE, SOCIAL MEDIA DIRECTLY INTO YOUR PMS.</h2>
+            <h2>INCREASE YOUR REVENUE WITH ONLINE PRESENCE TO 100+ OTAS WORLDWIDE. REAL TIME INVENTORY AND RATE UPDATES AND BOOKINGS UPDATES TO PMS.</h2>
+            <p>The booking engine interfaces with the hotel channel manager to guarantee that the room inventory is automatically modified across all the online platforms to avoid problems such as overbooking. When booking a room through an online travel agency, be rest assured that it is not still open through the hotel direct portal.</p>
+            <p>By displaying up-to-date information across all delivery networks, OTAs combined with channel management which is integrated in the HMS systems. Guests allowed the option to not only book through the hotel’s website but also through online travel agencies. STAAH Channel Manager makes it simple to put a distribution plan into action and importantly establish alliances with numerous types of business agents, such as online travel agencies (OTAs)</p>
+            <p>A practice of handling internet marketing platforms to market hotel inventory to multiple agents all over the world, such as online travel agents (OTAs), discount travel agents and so on. This phase made easier providing access to live pricing and real time inventory available as reducing the chance of overbooked rooms.</p>
+            <p>A vital component with features that help companies’ future-proof themselves while still offering a high return on investment. A tool to make life easier while upgrading prices and availability, carrying out a range of events, bookings, and sales, and allowing long-term business planning.</p>
         </div>
         <div className="page-main-features">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/06/booking-1.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/06/intragrated.jpg"/>
                         <div className="feature-des">
-                            <h2>ONLINE BOOKING ENGINE</h2>
-                            <p>Display the available rooms and rates via your hotels website, social media and get bookings directly from your guests.</p>
-                            <p>No commission fee</p>
+                            <h2>INTEGRATED CHANNEL MANAGER</h2>
+                            <div className="list-style">
+                              <ul>
+                                <li>Real time invetory update to PMS</li>
+                                <li>Daily rates are updated without manual intervention</li>
+                                <li>Manage all OTA channel in one central platform</li>
+                              </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-4">
                     <div className="feature-inner">
-                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/05/ONLINE-PAYMENT.jpg"/>
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/06/manage.jpg"/>
                         <div className="feature-des">
-                            <h2>ONLINE PAYMENT</h2>
-                            <p>Integrate with Online prefered payment gateway of yours.</p>
+                            <h2>MANAGE OTA</h2>
+                            <div className="list-style">
+                              <ul>
+                                <li>Add or remove OTA in single dashboard</li>
+                                <li>Distribute room inventory according to your preference to each OTA</li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="feature-inner">
+                        <StaticImage imgClassName="ftr-img" src="https://www.clovatel.com/wp-content/uploads/2020/05/6.jpg"/>
+                        <div className="feature-des">
+                          <h2>ICAL INTEGRATION</h2>
+                          <div className="list-style">
+                              <ul>
+                                <li>Easy iCal calendar integration</li>
+                                <li>Allow import and export your calendars on multiple platforms</li>
+                                <li>supporting iCalendar (iCal) format</li>
+                              </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -114,4 +143,4 @@ const bookingEngine = () => (
   </Layout>
 )
 
-export default bookingEngine
+export default channelmanager

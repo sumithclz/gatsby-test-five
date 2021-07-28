@@ -58,11 +58,11 @@ const Layout = ({ pageTitle, children }) => {
                   <a class="dropdown-item navlinktext" href="/software">Software</a>
                   <a class="dropdown-item navlinktext" href="/pms">PMS</a>
                   <a class="dropdown-item navlinktext" href="/booking-engine">Booking Engine</a>
-                  <a class="dropdown-item navlinktext" href="#">Channel Manager</a>
-                  <a class="dropdown-item navlinktext" href="#">Self Service Kiosk</a>
-                  <a class="dropdown-item navlinktext" href="#">Hotel Self Service App</a>
-                  <a class="dropdown-item navlinktext" href="#">Visitor Management</a>
-                  <a class="dropdown-item navlinktext" href="#">Smart Hotel</a>
+                  <a class="dropdown-item navlinktext" href="/channel-manager">Channel Manager</a>
+                  <a class="dropdown-item navlinktext" href="/self-service-kiosk">Self Service Kiosk</a>
+                  <a class="dropdown-item navlinktext" href="/hotel-self-service-app">Hotel Self Service App</a>
+                  <a class="dropdown-item navlinktext" href="/visitor-management">Visitor Management</a>
+                  <a class="dropdown-item navlinktext" href="/smart-hotel">Smart Hotel</a>
                 </div>
               </li>
               <li className="navlinkitem">

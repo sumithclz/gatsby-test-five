@@ -17,9 +17,19 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    // {
+    //   resolve: `gatsby-source-contentful`,
+    //   options: {
+    //    // spaceId: `your_space_id`,
+    //     // Learn about environment variables: https://gatsby.dev/env-vars
+    //    // accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    //     //host: `preview.contentful.com`,
+    //   },
+    // },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
 }
+
