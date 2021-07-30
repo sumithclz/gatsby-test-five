@@ -1,12 +1,9 @@
 import * as React from "react"
-//import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-//import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
-// import { Helmet } from 'react-helmet';
 import ContactForm from "../components/contactForm"
   
 
@@ -15,26 +12,6 @@ const IndexPage = () => (
     <Seo title="Home Page"
       description='This example uses more of the Home Page.'
       canonical='https://www.clovatel.com/'/>
-    {/* <Helmet>
-        <title>title</title>
-        <meta name="description" content="Helmet app" />
-      </Helmet> */}
-    {/* <Helmet>‍
-        <title>Pets - Products</title>    
-        <meta property="og:title" content="Pets - Products" />     
-        <meta property="og:description" content="Best Products for your pet" />     
-        <meta property="og:image" content="url_to_image"/>
-        <meta property="og:url" content="clovatel.com" />
-        <meta property="og:site_name" content="Pets - Products" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
-        <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
-      </Helmet> */}
-    
-      {/* <title>Gatsby Clovatel Home Page</title>
-      <meta name="description" content="lorem ip sum dolor sit amet">
-      <meta name="og:title" property="og:title" content="lorem ip sum dolor sit amet">
-      <meta name="robots" content="index,follow"> */}
     <Carousel>
       <Carousel.Item>
         <img
