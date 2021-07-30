@@ -449,6 +449,24 @@ a.navlinktext:hover {
   background-attachment: fixed;
   height: 150px;
 }
+/* App Page */
+.banner-wrapper-app {
+  background-image: url(../images/food-order.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
+/* Visitor Page */
+.banner-wrapper-visitor {
+  background-image: url(../images/visitor.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
 
 /* Pages Common */
 .banner-wrapper-inner {

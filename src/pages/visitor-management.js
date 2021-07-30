@@ -9,10 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const visitorManagement = () => (
   <Layout>
-    <div className="banner-wrapper-soft">
+    <div className="banner-wrapper-visitor">
       <div className="container">
         <div className="banner-wrapper-inner">
-          <h1>ALL IN ONE AFFORADABLE HOTEL SOLUTION</h1>
+          <h1>CONTACTLESS TEMPERATURE VISITOR MANAGEMENT</h1>
         </div>
       </div>
     </div>
