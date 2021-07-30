@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 //import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 import ContactForm from "../components/contactForm"
   
 
@@ -15,11 +15,11 @@ const IndexPage = () => (
     <Seo title="Home Page"
       description='This example uses more of the Home Page.'
       canonical='https://www.clovatel.com/'/>
-    <Helmet>
+    {/* <Helmet>
         <title>title</title>
         <meta name="description" content="Helmet app" />
-      </Helmet>
-    <Helmet>‍
+      </Helmet> */}
+    {/* <Helmet>‍
         <title>Pets - Products</title>    
         <meta property="og:title" content="Pets - Products" />     
         <meta property="og:description" content="Best Products for your pet" />     
@@ -29,7 +29,7 @@ const IndexPage = () => (
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
-      </Helmet>
+      </Helmet> */}
     
       {/* <title>Gatsby Clovatel Home Page</title>
       <meta name="description" content="lorem ip sum dolor sit amet">
