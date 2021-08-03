@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
   `)
   return (
     <main>
-      {/* <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+      <title>{pageTitle} | {data.site.siteMetadata.title}</title>
       <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
       <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
       <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
@@ -33,7 +33,7 @@ const Layout = ({ pageTitle, children }) => {
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-    /> */}
+    />
 
       <div className="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light navbar-right">
